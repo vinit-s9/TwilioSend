@@ -40,14 +40,14 @@ public class MsgSendin extends HttpServlet {
 		doGet(request, response);
 		
 		
-		String accountSid = "AC01950d707c80bb10865d1426db6f453d";
-		String authToken = "d7b15de4867bddf83668b624e281255d";
+		String accountSid = "ACb99f565f42e39ae55c5acaa40ee85749";
+		String authToken = "5cfaccd7d74984b8224cc6d99fbae98f";
 
 		Twilio.init(accountSid, authToken);
 		Message message = Message.creator(
-				new PhoneNumber("+19173490168"), // to			
-				new PhoneNumber("+15713668169"), // from
-				"Hello from SHUSHU CHENG CS643 Fall 2017" // body
+				new PhoneNumber("+19735683366"), // to			
+				new PhoneNumber("+14154633669"), // from
+				"Hello from VINITKUMAR SURATI CS643 Fall 2017" // body
 		).create();
 
 		System.out.println(message.getSid());

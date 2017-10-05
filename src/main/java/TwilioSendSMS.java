@@ -11,15 +11,15 @@ import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 
 /**
- * Servlet implementation class MsgSendin
+ * Servlet implementation class TwilioSendSMS
  */
-public class MsgSendin extends HttpServlet {
+public class TwilioSendSMS extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public MsgSendin() {
+    public TwilioSendSMS() {
         super();
         // TODO Auto-generated constructor stub
     }

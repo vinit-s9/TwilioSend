@@ -2,10 +2,10 @@
   <script type="text/javascript">
       function test(){
     	  var testform=document.getElementById("testform");
-    	  testform.action="MsgSendin";
+    	  testform.action="TwilioSendSMS";
     	  testform.method = "post";
     	  testform.submit();
-    	  alert('Shushu message');
+    	  alert('Message from Vinitkumar Surati');
       }
   </script>
 <body onload = "test()">

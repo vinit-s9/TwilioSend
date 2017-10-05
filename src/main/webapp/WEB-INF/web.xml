@@ -5,13 +5,13 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-  	<servlet-name>MsgSendin</servlet-name>
-  	<display-name>MsgSendin</display-name>
+  	<servlet-name>TwilioSendSMS</servlet-name>
+  	<display-name>TwilioSendSMS</display-name>
   	<description></description>
-  	<servlet-class>MsgSendin</servlet-class>
+  	<servlet-class>TwilioSendSMS</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>MsgSendin</servlet-name>
-  	<url-pattern>/MsgSendin</url-pattern>
+  	<servlet-name>TwilioSendSMS</servlet-name>
+  	<url-pattern>/TwilioSendSMS</url-pattern>
   </servlet-mapping>
 </web-app>

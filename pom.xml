@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Twilio</groupId>
-  <artifactId>chengshushu</artifactId>
+  <artifactId>VinitkumarSurati</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>chengshushu Maven Webapp</name>
+  <name>VinitkumarSurati Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
   <dependency>
@@ -30,7 +30,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>chengshushu</finalName>
+    <finalName>VinitkumarSurati</finalName>
     
     <plugins>
 			<plugin>

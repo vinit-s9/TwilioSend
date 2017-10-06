@@ -9,7 +9,7 @@ import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 
 /**
- * Servlet implementation class TwilioSendSMS
+ * Servlet implementation class TwilioSMS
  */
 public class TwilioSMS extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -27,8 +27,8 @@ public class TwilioSMS extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-		//response.getWriter().println("Hey this is Vinit Surati");;
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().println("Check phone for the message! Thanks!");;
 	}
 
 	/**

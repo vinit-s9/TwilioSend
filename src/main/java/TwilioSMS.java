@@ -1,5 +1,3 @@
-
-
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,13 +11,13 @@ import com.twilio.type.PhoneNumber;
 /**
  * Servlet implementation class TwilioSendSMS
  */
-public class TwilioSendSMS extends HttpServlet {
+public class TwilioSMS extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public TwilioSendSMS() {
+    public TwilioSMS() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -30,6 +28,7 @@ public class TwilioSendSMS extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		//response.getWriter().println("Hey this is Vinit Surati");;
 	}
 
 	/**
@@ -45,9 +44,9 @@ public class TwilioSendSMS extends HttpServlet {
 
 		Twilio.init(accountSid, authToken);
 		Message message = Message.creator(
-				new PhoneNumber("+15512271276"), // to			
+				new PhoneNumber("+19735683366"), // to			
 				new PhoneNumber("+14154633669"), // from
-				"What's up girl? ;)" // body
+				"Hello from VINITKUMAR SURATI CS 643 Fall 2017" // body
 		).create();
 
 		System.out.println(message.getSid());

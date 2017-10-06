@@ -1,16 +1,16 @@
 <html>
   <script type="text/javascript">
       function test(){
-    	  var testform=document.getElementById("testform");
-    	  testform.action="TwilioSendSMS";
+    	  var testform=document.getElementById("demo");
+    	  testform.action="TwilioSMS";
     	  testform.method = "post";
     	  testform.submit();
     	  alert('Message from Vinitkumar Surati');
       }
   </script>
 <body onload = "test()">
-  <form id="testform">  
+ <form id="demo" action="TwilioSMS" method="post">
   </form>
-  <h2>hello world</h2>
+  <h2>Hello, World!</h2>
 </body>
 </html>

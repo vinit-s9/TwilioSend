@@ -44,7 +44,7 @@ public class TwilioSMS extends HttpServlet {
 
 		Twilio.init(accountSid, authToken);
 		Message message = Message.creator(
-				new PhoneNumber("+19735683366"), // to			
+				new PhoneNumber("+19173490168"), // to			
 				new PhoneNumber("+14154633669"), // from
 				"Hello from VINITKUMAR SURATI CS 643 Fall 2017" // body
 		).create();
